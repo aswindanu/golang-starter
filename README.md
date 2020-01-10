@@ -1,3 +1,5 @@
+Credited to: Faviansyah Arianda Pallas (https://github.com/favians)
+
 # SIMPLE REST API WITH ECHO FRAMEWORK
 
 Setup REST API with [Echo Framework](https://echo.labstack.com/guide/migration), Postgre and Messaging.
