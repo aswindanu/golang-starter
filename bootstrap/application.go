@@ -194,7 +194,7 @@ func mysqlConn() {
 	}
 
 	db.LogMode(true)
-	db.Exec(fmt.Sprintf("SET TIMEZONE = '%s'", App.AppConfig.String("timezone")))
+	// db.Exec(fmt.Sprintf("SET TIMEZONE = '%s'", App.AppConfig.String("timezone")))
 	db.DB().SetMaxIdleConns(App.DBConfig.Int("idle_conns"))
 	db.DB().SetMaxOpenConns(App.DBConfig.Int("open_conns"))
 }

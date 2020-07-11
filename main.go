@@ -9,9 +9,9 @@ import (
 
 	"github.com/pressly/goose"
 
-	"golang_starter/bootstrap"
-	"golang_starter/db/migrations"
-	"golang_starter/router"
+	"golang-starter/bootstrap"
+	"golang-starter/db/migrations"
+	"golang-starter/router"
 )
 
 var (
@@ -28,10 +28,10 @@ func main() {
 
 	args := flags.Args()
 
-	if len(args) < 1 {
-		flags.Usage()
-		return
-	}
+	// if len(args) < 1 {
+	// 	flags.Usage()
+	// 	return
+	// }
 
 	dir := "db/migrations"
 
@@ -120,16 +120,16 @@ func usage() {
 var (
 	usagePrefix = `
 Usage for Running Server: 
-	disbursement run
+	go run main.go run
 
 Usage for Running as Worker: 
-	disbursement start_worker WORKERNAME QUEUENAME
+	go run main.go start_worker WORKERNAME QUEUENAME
 
 	Examples:
-		disbursement start_worker worker_1 queue_to_listen
+		go run main.go start_worker worker_1 queue_to_listen
 
 Usage for Migrate: 
-	disbursement [OPTIONS] DRIVER DBSTRING COMMAND
+	go run main.go [OPTIONS] DRIVER DBSTRING COMMAND
 
 	Drivers:
 		postgres
@@ -137,14 +137,14 @@ Usage for Migrate:
 		sqlite3
 		redshift
 	Examples:
-		disbursement sqlite3 ./foo.db status
-		disbursement sqlite3 ./foo.db create init sql
-		disbursement sqlite3 ./foo.db create add_some_column sql
-		disbursement sqlite3 ./foo.db create fetch_user_data go
-		disbursement sqlite3 ./foo.db up
-		disbursement postgres "user=postgres dbname=postgres sslmode=disable" status
-		disbursement mysql "user:password@/dbname?parseTime=true" status
-		disbursement redshift "postgres://user:password@qwerty.us-east-1.redshift.amazonaws.com:5439/db" status
+		go run main.go sqlite3 ./foo.db status
+		go run main.go sqlite3 ./foo.db create init sql
+		go run main.go sqlite3 ./foo.db create add_some_column sql
+		go run main.go sqlite3 ./foo.db create fetch_user_data go
+		go run main.go sqlite3 ./foo.db up
+		go run main.go postgres "user=postgres dbname=postgres sslmode=disable" status
+		go run main.go mysql "user:password@/dbname?parseTime=true" status
+		go run main.go redshift "postgres://user:password@qwerty.us-east-1.redshift.amazonaws.com:5439/db" status
 	Options:
 	`
 

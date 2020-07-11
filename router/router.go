@@ -1,8 +1,8 @@
 package router
 
 import (
-	"golang_starter/api"
-	"golang_starter/api/middlewares"
+	"golang-starterapi"
+	"golang-starterapi/middlewares"
 
 	"github.com/labstack/echo"
 )

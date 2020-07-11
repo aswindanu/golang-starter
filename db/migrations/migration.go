@@ -3,8 +3,8 @@ package migrations
 import (
 	"encoding/json"
 	"log"
-	"golang_starter/api/models"
-	"golang_starter/bootstrap"
+	"golang-starterapi/models"
+	"golang-starterbootstrap"
 )
 
 // Attention on table relation, seed table that not mutual first.

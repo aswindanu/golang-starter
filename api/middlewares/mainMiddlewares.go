@@ -15,7 +15,7 @@ func SetMainMiddlewares(e *echo.Echo) {
 
 func serverHeader(next echo.HandlerFunc) echo.HandlerFunc {
 	return func(c echo.Context) error {
-		c.Response().Header().Set(echo.HeaderServer, "Golang_Starter/1.0")
+		c.Response().Header().Set(echo.HeaderServer, "golang-starter1.0")
 		// c.Response().Header().Set("notReallyHeader", "thisHaveNoMeaning")
 
 		return next(c)

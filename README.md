@@ -10,6 +10,7 @@ Below is the packages used by this project
 
 * Framework : https://github.com/labstack/echo
 * ORM : https://github.com/jinzhu/gorm
+* JWT : https://github.com/dgrijalva/jwt-go
 * DB Driver :
     - https://github.com/lib/pq (for Postgres)
     - https://github.com/go-sql-driver/mysql (for MySQL)
@@ -22,6 +23,18 @@ Below is the packages used by this project
     - Logrus: https://github.com/sirupsen/logrus
     - Rotator: https://github.com/lestrrat-go/file-rotatelogs
 * Migration: https://github.com/pressly/goose
+
+## Prequisition
+
+Define env for GOPATH for INSTALLATION
+
+For example ```export GOPATH=<your_place_to_code>```
+
+Use ```go get <package_needed>``` command for getting all packages needed from above in your root project
+
+For example ```go get github.com/pressly/goose```
+
+* See docs [here](https://docs.google.com/document/d/1xJvL6zaT4iaIdHYvWhAMTax-Ji4_B9Ks1cqaDLmgkpo/edit#)
 
 ## Configs
 

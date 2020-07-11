@@ -3,15 +3,17 @@ app_version: 0.0.1
 app_env: dev
 
 dev:
-  adapter: postgre
+  # adapter: postgre
+  adapter: mysql
   database: try_echo
   username: yourusername
   password: yourpassword
   host: 0.0.0.0     #defaults to 127.0.0.1
-  port: 5432
+  port: 3306
   idle_conns: 10
   open_conns: 100
   sslmode: disable
+  timezone: US/Pacific
 
 staging:
   adapter: postgre

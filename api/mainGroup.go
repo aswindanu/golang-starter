@@ -1,8 +1,8 @@
 package api
 
 import (
-	"golang_starter/api/handlers"
-	"golang_starter/api/middlewares"
+	"golang-starterapi/handlers"
+	"golang-starterapi/middlewares"
 
 	"github.com/labstack/echo"
 )
