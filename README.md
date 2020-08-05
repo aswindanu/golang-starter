@@ -1,4 +1,4 @@
-Credited to: Faviansyah Arianda Pallas (https://github.com/favians)
+#### This code was edited. Source credited n copyright: Faviansyah Arianda Pallas (https://github.com/favians)
 
 # SIMPLE REST API WITH ECHO FRAMEWORK
 
