@@ -116,3 +116,7 @@ Faviansyah-MacBook-Air:disbursement Faviansyah$ docker-compose ps
 ## Insomania (RESTAPI Client) Workspace
 
 If you use Insomnia you can import sample workspace from ```INSOMNIA-WORKSPACE.json```.
+
+## Troubleshoot
+
+If you have save package problem while write something in VSCode, try [this](https://stackoverflow.com/questions/48124565/why-does-vscode-delete-golang-source-on-save)
