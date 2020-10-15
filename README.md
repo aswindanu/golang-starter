@@ -28,7 +28,7 @@ Below is the packages used by this project
 
 Define env for GOPATH for INSTALLATION
 
-For example ```export GOPATH=<your_place_to_code>```
+For example ```export GOPATH=<your_place_to_code:main.go>```
 
 Use ```go get <package_needed>``` command for getting all packages needed from above in your root project
 
@@ -82,6 +82,13 @@ This unit test is for testing each endpoint and response. All test file located 
 
 ```bash
 go test tests/*_test.go
+```
+
+## Run Dev
+
+Running dev with
+
+```go run main.go
 ```
 
 ## Run with Docker
