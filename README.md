@@ -112,6 +112,7 @@ Faviansyah-MacBook-Air:disbursement Faviansyah$ docker-compose ps
 * [Udemy Go - The Complete Developer's Guide](https://www.udemy.com/go-the-complete-developers-guide/)
 * [Creating Golang WebServer With Echo](https://www.youtube.com/watch?v=_pww3NJuWnk&list=PLFmONUGpIk0YwlJMZOo21a9Q1juVrk4YY)
 * [RESTFUL Sample](https://github.com/kyawmyintthein/golangRestfulAPISample)
+* [Pointers '*' and '&'](https://stackoverflow.com/questions/38172661/what-is-the-meaning-of-and-in-golang)
 
 ## Insomania (RESTAPI Client) Workspace
 
