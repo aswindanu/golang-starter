@@ -88,7 +88,8 @@ go test tests/*_test.go
 
 Running dev with
 
-```go run main.go
+```
+go run main.go
 ```
 
 ## Run with Docker
